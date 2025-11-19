@@ -23,7 +23,7 @@ body {
 /* ---------------------------- */
 
 .hero {
-    background: linear-gradient(90deg, var(--purple), #650F40, #f0c400);
+    background: linear-gradient(90deg, #650F40, #f0c400);
     padding: 34px;
     border-radius: var(--radius);
     margin: 20px;
