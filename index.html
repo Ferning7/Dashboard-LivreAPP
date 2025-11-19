@@ -1,114 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Jurídico</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="hero">
-    <div class="hero-content">
-        <h1>Dashboard LIVRE APP</h1>
-    </div>
-</header>
-
-<section class="stats">
-    <article class="stat-card">
-        <h3>Documentos Pendentes</h3>
-        <p class="number">20</p>
-        <span class="stat-note">+XX</span>
-    </article>
-
-    <article class="stat-card">
-        <h3>Aprovação Pendente</h3>
-        <p class="number">15</p>
-        <span class="stat-note">+XX</span>
-    </article>
-
-    <article class="stat-card">
-        <h3>Clientes em Atraso</h3>
-        <p class="number">5</p>
-        <span class="stat-note">+XX</span>
-    </article>
-
-    <article class="stat-card">
-        <h3>Card Extra</h3>
-        <p class="number">XX</p>
-        <span class="stat-note">+XX</span>
-    </article>
-</section>
-
-<section class="search">
-    <input type="text" placeholder="Buscar por cliente, processo, documento ou conteúdo do arquivo…">
-    <button class="btn-search">Buscar</button>
-</section>
-
-<main class="layout">
-    <section class="panel">
-        <h2>Clientes em Atraso</h2>
-
-        <div class="client">
-            <div class="client-icon">📄</div>
-            <div class="client-info">
-                <strong>Maria de Fátima</strong>
-                <small>Procuração – RG</small>
-            </div>
-            <button class="btn-view">Visualizar</button>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Dashboard LIVRE APP</h1>
+            <button id="toggle-theme">🌙</button>
         </div>
+    </header>
 
-        <div class="client">
-            <div class="client-icon">📄</div>
-            <div class="client-info">
-                <strong>João Batista</strong>
-                <small>Contrato Social – CNPJ</small>
-            </div>
-            <button class="btn-view">Visualizar</button>
-        </div>
+    <section class="stats">
+        <article class="stat-card">
+            <h3>Documentos Pendentes</h3>
+            <p class="number">20</p>
+            <span class="stat-note">+XX</span>
+        </article>
 
-        <div class="client">
-            <div class="client-icon">📄</div>
-            <div class="client-info">
-                <strong>Amanda Ribeiro</strong>
-                <small>Parecer Jurídico – Processo 4572</small>
-            </div>
-            <button class="btn-view">Visualizar</button>
-        </div>
+        <article class="stat-card">
+            <h3>Aprovação Pendente</h3>
+            <p class="number">15</p>
+            <span class="stat-note">+XX</span>
+        </article>
 
-        <div class="client">
-            <div class="client-icon">📄</div>
-            <div class="client-info">
-                <strong>Amanda Ribeiro</strong>
-                <small>Parecer Jurídico – Processo 4572</small>
-            </div>
-            <button class="btn-view">Visualizar</button>
-        </div>
+        <article class="stat-card">
+            <h3>Clientes em Atraso</h3>
+            <p class="number">5</p>
+            <span class="stat-note">+XX</span>
+        </article>
 
+        <article class="stat-card">
+            <h3>Card Extra</h3>
+            <p class="number">XX</p>
+            <span class="stat-note">+XX</span>
+        </article>
     </section>
 
-    <aside class="panel">
-        <h2>Ações Rápidas</h2>
+    <section class="search">
+        <input type="text" placeholder="Buscar por cliente, processo, documento ou conteúdo do arquivo…">
+        <button class="btn-search">Buscar</button>
+    </section>
 
-        <button class="action">
-            👥 Visualizar todos clientes
-        </button>
+    <main class="layout">
+        <section class="panel">
+            <h2>Clientes em Atraso</h2>
 
-        <button class="action">
-            📄 Visualizar documentos pendentes
-        </button>
+            <div class="client">
+                <div class="client-icon">📄</div>
+                <div class="client-info">
+                    <strong>Maria de Fátima</strong>
+                    <small>Procuração – RG</small>
+                </div>
+                <button class="btn-view">Visualizar</button>
+            </div>
 
-        <button class="action">
-            ➕ Cadastrar cliente
-        </button>
+            <div class="client">
+                <div class="client-icon">📄</div>
+                <div class="client-info">
+                    <strong>João Batista</strong>
+                    <small>Contrato Social – CNPJ</small>
+                </div>
+                <button class="btn-view">Visualizar</button>
+            </div>
 
-        <button class="action">
-            ⚖️ Realizar cobrança de documento
-        </button>
-    </aside>
-</main>
+            <div class="client">
+                <div class="client-icon">📄</div>
+                <div class="client-info">
+                    <strong>Amanda Ribeiro</strong>
+                    <small>Parecer Jurídico – Processo 4572</small>
+                </div>
+                <button class="btn-view">Visualizar</button>
+            </div>
+
+            <div class="client">
+                <div class="client-icon">📄</div>
+                <div class="client-info">
+                    <strong>Amanda Ribeiro</strong>
+                    <small>Parecer Jurídico – Processo 4572</small>
+                </div>
+                <button class="btn-view">Visualizar</button>
+            </div>
+
+
+        </section>
+
+        <aside class="panel-actions">
+            <h2>Ações Rápidas</h2>
+
+            <button class="action">
+                👥 Visualizar todos clientes
+            </button>
+
+            <button class="action">
+                📄 Visualizar documentos pendentes
+            </button>
+
+            <button class="action">
+                ➕ Cadastrar cliente
+            </button>
+
+            <button class="action">
+                ⚖️ Realizar cobrança de documento
+            </button>
+        </aside>
+    </main>
 
 </body>
 
 <script src="search.js"></script>
+<script src="theme.js"></script>
+
 </html>
